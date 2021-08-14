@@ -9,6 +9,8 @@ const apiClient = axios.create({
   }
 })
 
+// remove express
+
 export default {
   getEvents() {
     return apiClient.get('/events')
